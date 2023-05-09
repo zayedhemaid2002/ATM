@@ -52,7 +52,7 @@ a customer number and PIN, it is the job of the bank to find the matching custom
 the function to be done. For example, when you first log in, you select an account. Next,
 you use choose between deposit and withdrawal. The ATM must remember the current
 state so that it can correctly interpret the action to be done. There are four states:
-1. START: Enter customer ID
-2. PIN: Enter PIN
-3. ACCOUNT: Select account
-4. TRANSACT: Select transaction
+    1. START: Enter customer ID
+    2. PIN: Enter PIN
+    3. ACCOUNT: Select account
+    4. TRANSACT: Select transaction
