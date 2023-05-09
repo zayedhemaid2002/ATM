@@ -46,11 +46,9 @@ a set of customer numbers and PINs from a file. All accounts are initialized wit
 # The project must have at least the following classes:
 1. BankAccount : A bank account has a balance that can be changed by deposits and withdrawals.
 2. Customer :    A bank customer with a checking and a savings account.
-3- Bank
-A bank contains a collection of customers. When a user walks up to the ATM and enters
+3. Bank :   A bank contains a collection of customers. When a user walks up to the ATM and enters
 a customer number and PIN, it is the job of the bank to find the matching customer.
-4- ATM
-The ATM has a state. The current machine state determines the text of the prompts and
+4. ATM : The ATM has a state. The current machine state determines the text of the prompts and
 the function to be done. For example, when you first log in, you select an account. Next,
 you use choose between deposit and withdrawal. The ATM must remember the current
 state so that it can correctly interpret the action to be done. There are four states:
