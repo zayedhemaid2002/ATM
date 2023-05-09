@@ -42,8 +42,9 @@ A=Deposit, B=Withdrawal, C=Cancel: c
 
 Because this is a simulation, the ATM does not actually communicate with a bank. It simply loads
 a set of customer numbers and PINs from a file. All accounts are initialized with a zero balance.
+
 # The project must have at least the following classes:
-1. BankAccount
+1. BankAccount :
 A bank account has a balance that can be changed by deposits and withdrawals.
 2. Customer
 A bank customer with a checking and a savings account.
